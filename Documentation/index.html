@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flix App - Documentation</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">  
+      
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+</head> 
+
+<body class="body-green">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <span aria-hidden="true" class="icon_documents_alt icon"></span>
+                            <span class="text-highlight">Virmana</span><span class="text-bold">Docs</span>
+                        </a>
+                    </h1>
+                </div><!--//branding-->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Flix App</a></li>
+                    <li class="breadcrumb-item active">Documentation</li>
+                </ol>
+            </div><!--//container-->
+        </header><!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title"><i class="icon fas fa-check"></i> Documentation </h1>
+                    <div class="meta"><i class="fas fa-check"></i> Config your application without technical knowable</div>
+                </div><!--//doc-header-->
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section class="doc-section">
+                                <div  class="section-block">
+                                    <div class="content">
+                                        <p>
+                                        Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/virmana">here</a>. Thanks so much!
+                                        </p>
+                                        <p>
+                                        Created: 09/01/2020 <br>
+                                        By: Virmana Inc <br>
+                                        Email: virmana.inc@gmail.com <br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </section>
+                            <hr>
+                            <section id="android-project" class="doc-section">
+                                <h2 class="section-title">Config Android Project</h2>
+                                <div class="content">
+                                    <p>After Download , install and open the project on Android Studio , now you need to config your source code and make it ready by change package name config firebase config facebook .... </p>
+                                </div>
+                                <br>
+                                <div id="android-studio-open-project" class="section-block">
+                                    <h4 class="block-title">Open Project in Android studio</h4>
+                                    <div class="content">
+                                        <p>
+                                            Now you need to open the Android Application on Android Studio just follow the video bellow to open the project . 
+                                        </p>
+                                        <iframe width="800" height="440" src="https://www.youtube.com/embed/tb-yspq68ow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div id="android-project-package-name" class="section-block">
+                                    <h4 class="block-title">Change the package name</h4>
+                                    <div class="content">
+                                        <p>
+                                            Every Android Application on Google Play has a unique package name (unique id) , for this application too we need to use a unique package name , for that you need to choose a unique package name (ApplicationId) with three part for example : <b>com.companyname.appname</b>  , now to change you package name follow the video bello :
+                                            <br>
+                                            <br>
+                                            <iframe width="800" height="440" src="https://www.youtube.com/embed/Mm-I9typv8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </p>
+
+                                       <div class="callout-block callout-danger">
+                                            <div class="icon-holder">
+                                                <svg class="svg-inline--fa fa-bug fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="bug" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M511.988 288.9c-.478 17.43-15.217 31.1-32.653 31.1H424v16c0 21.864-4.882 42.584-13.6 61.145l60.228 60.228c12.496 12.497 12.496 32.758 0 45.255-12.498 12.497-32.759 12.496-45.256 0l-54.736-54.736C345.886 467.965 314.351 480 280 480V236c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v244c-34.351 0-65.886-12.035-90.636-32.108l-54.736 54.736c-12.498 12.497-32.759 12.496-45.256 0-12.496-12.497-12.496-32.758 0-45.255l60.228-60.228C92.882 378.584 88 357.864 88 336v-16H32.666C15.23 320 .491 306.33.013 288.9-.484 270.816 14.028 256 32 256h56v-58.745l-46.628-46.628c-12.496-12.497-12.496-32.758 0-45.255 12.498-12.497 32.758-12.497 45.256 0L141.255 160h229.489l54.627-54.627c12.498-12.497 32.758-12.497 45.256 0 12.496 12.497 12.496 32.758 0 45.255L424 197.255V256h56c17.972 0 32.484 14.816 31.988 32.9zM257 0c-61.856 0-112 50.144-112 112h224C369 50.144 318.856 0 257 0z"></path></svg><!-- <i class="fas fa-bug"></i> -->
+                                            </div><!--//icon-holder-->
+                                            <div class="content">
+                                                <h4 class="callout-title">Please note</h4>
+                                                <ul>
+                                                    <li>The only special characters allowed on package name its underscore </li>
+                                                    <li>Don't change the "com" part on package name</li>
+                                                    <li>Google will not allow you to change the package name after publish the app on google play</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div id="android-project-firebase" class="section-block">
+                                    <h4 class="block-title">Firebase Configuration</h4>
+                                    <div class="content">
+                                        <p>
+                                            After Change package name now you need to config the firebase (firebase its a google service used to send notification and to allow the application login with google accounts) 
+
+                                            <hr>
+                                            <iframe width="800" height="440" src="https://www.youtube.com/embed/GW1K0IyfZLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                            <br>
+
+                                        </p>
+
+                                       <div class="callout-block callout-danger">
+                                            <div class="icon-holder">
+                                                <svg class="svg-inline--fa fa-bug fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="bug" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M511.988 288.9c-.478 17.43-15.217 31.1-32.653 31.1H424v16c0 21.864-4.882 42.584-13.6 61.145l60.228 60.228c12.496 12.497 12.496 32.758 0 45.255-12.498 12.497-32.759 12.496-45.256 0l-54.736-54.736C345.886 467.965 314.351 480 280 480V236c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v244c-34.351 0-65.886-12.035-90.636-32.108l-54.736 54.736c-12.498 12.497-32.759 12.496-45.256 0-12.496-12.497-12.496-32.758 0-45.255l60.228-60.228C92.882 378.584 88 357.864 88 336v-16H32.666C15.23 320 .491 306.33.013 288.9-.484 270.816 14.028 256 32 256h56v-58.745l-46.628-46.628c-12.496-12.497-12.496-32.758 0-45.255 12.498-12.497 32.758-12.497 45.256 0L141.255 160h229.489l54.627-54.627c12.498-12.497 32.758-12.497 45.256 0 12.496 12.497 12.496 32.758 0 45.255L424 197.255V256h56c17.972 0 32.484 14.816 31.988 32.9zM257 0c-61.856 0-112 50.144-112 112h224C369 50.144 318.856 0 257 0z"></path></svg><!-- <i class="fas fa-bug"></i> -->
+                                            </div><!--//icon-holder-->
+                                            <div class="content">
+                                                <h4 class="callout-title">Please note</h4>
+                                                <ul>
+                                                    <li>Don't try to generate APK without config firebase</li>
+                                                    <li>Don't try To sync the project without config firebase</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                                <div id="android-project-facebook" class="section-block">
+                                    <h4 class="block-title">Facebook Configuration</h4>
+                                    <div class="content">
+                                        <p>
+                                            After config Firebase  now you need to config the facebook Application (this configuratio required to use facebook login + Facebook Network Audiance )
+                                            <br>
+                                            <div class="code-block">
+                                                <h6>use the commande bellow to generate the hashkey  : </h6>
+                                                <pre><code class="language-markup"> keytool -exportcert -alias YOUR_RELEASE_KEY_ALIAS -keystore YOUR_RELEASE_KEY_PATH | openssl sha1 -binary | openssl base64 </code></pre>
+                                            </div><!--//code-block-->
+                                            <br>
+                                            <iframe width="800" height="440" src="https://www.youtube.com/embed/BgTE5zgIQbs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </p>
+                                        <br>
+                                <div class="callout-block callout-success">
+                                    <div class="icon-holder">
+                                        <svg class="svg-inline--fa fa-bug fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="bug" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M511.988 288.9c-.478 17.43-15.217 31.1-32.653 31.1H424v16c0 21.864-4.882 42.584-13.6 61.145l60.228 60.228c12.496 12.497 12.496 32.758 0 45.255-12.498 12.497-32.759 12.496-45.256 0l-54.736-54.736C345.886 467.965 314.351 480 280 480V236c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v244c-34.351 0-65.886-12.035-90.636-32.108l-54.736 54.736c-12.498 12.497-32.759 12.496-45.256 0-12.496-12.497-12.496-32.758 0-45.255l60.228-60.228C92.882 378.584 88 357.864 88 336v-16H32.666C15.23 320 .491 306.33.013 288.9-.484 270.816 14.028 256 32 256h56v-58.745l-46.628-46.628c-12.496-12.497-12.496-32.758 0-45.255 12.498-12.497 32.758-12.497 45.256 0L141.255 160h229.489l54.627-54.627c12.498-12.497 32.758-12.497 45.256 0 12.496 12.497 12.496 32.758 0 45.255L424 197.255V256h56c17.972 0 32.484 14.816 31.988 32.9zM257 0c-61.856 0-112 50.144-112 112h224C369 50.144 318.856 0 257 0z"></path></svg><!-- <i class="fas fa-bug"></i> -->
+                                    </div><!--//icon-holder-->
+                                    <div class="content">
+                                        <h4 class="callout-title">Fix After Publish App On Google play</h4>
+                                        <ul>
+
+                                            <li>Publish app on google play store</li>
+                                            <li>Install  app from google play </li>
+                                            <li>Open Your application > menu left > settings</li>
+                                            <li>Long click on version name you will get message said the "hashkey is copied"</li>
+                                            <li>Go your facebook app on developper facebook and add the copied haskey .</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                    </div>
+                                </div>
+                                <div id="android-project-google" class="section-block">
+                                    <h4 class="block-title">Google / Phone Auth Configuration</h4>
+                                    <div class="content">
+                                        <p>
+                                            After Publish App On google Play follow the video bellow 
+                                            <br>
+                                            <br>
+                                            <iframe width="800" height="440" src="https://www.youtube.com/embed/qeyzIUTH28w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </p>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <section id="admin-panel" class="doc-section">
+                                <h2 class="section-title">Admin Panel</h2>
+                                <div class="content">
+                                    <p>Now you need to setup your admin panel and that required a shared hosting or a vps server with the requirement bellow </p>
+                                </div>
+                                <br>
+                                <div class="callout-block callout-success">
+                                    <div class="icon-holder">
+                                        <svg class="svg-inline--fa fa-bug fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="bug" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M511.988 288.9c-.478 17.43-15.217 31.1-32.653 31.1H424v16c0 21.864-4.882 42.584-13.6 61.145l60.228 60.228c12.496 12.497 12.496 32.758 0 45.255-12.498 12.497-32.759 12.496-45.256 0l-54.736-54.736C345.886 467.965 314.351 480 280 480V236c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v244c-34.351 0-65.886-12.035-90.636-32.108l-54.736 54.736c-12.498 12.497-32.759 12.496-45.256 0-12.496-12.497-12.496-32.758 0-45.255l60.228-60.228C92.882 378.584 88 357.864 88 336v-16H32.666C15.23 320 .491 306.33.013 288.9-.484 270.816 14.028 256 32 256h56v-58.745l-46.628-46.628c-12.496-12.497-12.496-32.758 0-45.255 12.498-12.497 32.758-12.497 45.256 0L141.255 160h229.489l54.627-54.627c12.498-12.497 32.758-12.497 45.256 0 12.496 12.497 12.496 32.758 0 45.255L424 197.255V256h56c17.972 0 32.484 14.816 31.988 32.9zM257 0c-61.856 0-112 50.144-112 112h224C369 50.144 318.856 0 257 0z"></path></svg><!-- <i class="fas fa-bug"></i> -->
+                                    </div><!--//icon-holder-->
+                                    <div class="content">
+                                        <h4 class="callout-title">Hosting Requirements</h4>
+                                        <ul>
+                                            <li>Exif Extension</li>
+                                            <li>Fileinfo Extension</li>
+                                            <li>GD Extension</li>
+                                            <li>PHP iconv extension</li>
+                                            <li>PHP Vertsion 5.6/5.8/7.0</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="content">
+                                    <p>After prepare your server follow the video bellow to setup the admin panel</p>
+                                    <iframe width="800" height="440" src="https://www.youtube.com/embed/JxWFO5-96uU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <br>
+                                    <br>
+                                    <p>
+                                            After Config admin panel Go to firebase > Project settings > Cloud Messaging > and copy the server key 
+                                            <br>
+                                            Then Go to Admin panel > menu left > Settings > and past your server key and click save check screenshot bellow:
+                                            <br>
+                                            <br>
+                                            <img src="assets/images/image_4.png" style="width:100%" >
+                                            <br>
+                                            <br>
+                                            <img src="assets/images/image_5.png" style="width:100%" >
+
+                                        </p>
+                                </div>
+                                <hr>
+                                <div id="admin-panel-link" class="section-block">
+                                    <h4 class="block-title">Link The Android App With Admin panel</h4>
+                                    <div class="content">
+                                        <p>
+                                            After the android app configuration and the admin panel configuration now you need to link it .<br> to do this go to :
+                                            <div class="code-block">
+                                                <pre><code class="language-markup">Android App&gt;Config&gt;Global.java</code></pre>
+                                            </div><!--//code-block-->
+                                            and add your api url there (if your admin panel its http://admin.example.com you api url will be http://admin.example.com/api/)
+                                             <div class="code-block">
+                                                <pre><code class="language-markup">public static final String API_URL = "http://flix.virmana.com/api/";</code></pre>
+                                            </div><!--//code-block--> 
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+                            </section>
+                            <section id="app-customization" class="doc-section">
+                                <h2 class="section-title">Android Application Customization</h2>
+                                <div class="content">
+                                    <p>After config everything now you app need a customization to take your touch like title,icon,colors .... </p>
+                                </div>
+                                <br>
+                                <div id="app-customization-name" class="section-block">
+                                    <h4 class="block-title">Change the application name</h4>
+                                    <div class="content">
+                                        <p>
+                                           To change the application name <br> Go to :
+                                            <div class="code-block">
+                                                <pre><code class="language-markup">Android App&gt;res&gt;values&gt;strings.xml</code></pre>
+                                            </div><!--//code-block-->
+                                            And change the application name there : 
+                                             <div class="code-block">
+                                                <pre><code class="language-markup">&lt;string name="app_name"&gt;Flix App&lt;/string&gt;</code></pre>
+                                            </div><!--//code-block--> 
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div id="app-customization-logo" class="section-block">
+                                    <h4 class="block-title">Change the application icons</h4>
+                                    <div class="content">
+                                        <p>
+                                           To change the application logo <br> Go to :
+                                           <br>
+                                           <img src="assets/images/image_1.png" style="width:100%" >
+
+                                            <br>Then change the icon on folders bellow <br>
+
+                                            <img src="assets/images/image_2.png" style="width:100%" >
+                                        </p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div id="app-customization-colors" class="section-block">
+                                    <h4 class="block-title">Change the application colors</h4>
+                                    <div class="content">
+                                        <p>
+                                           To change the application colors <br> Go to :
+                                            <div class="code-block">
+                                                <pre><code class="language-markup">Android App&gt;res&gt;values&gt;colors.xml</code></pre>
+                                            </div><!--//code-block-->
+                                        </p>
+                                        <p>and change all app colors there </p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div id="app-customization-facebook-ads" class="section-block">
+                                    <h4 class="block-title">Change Admob/Facebook ads IDs</h4>
+                                    <div class="content">
+                                        <p>
+                                           To Admin Panel > Menu > Settings > Settings Ads and set your AdMob / Facebook Ads Ids
+                                    </div>
+                                </div>
+                                <hr>
+                                
+                            </section>
+                          
+                            <section id="update_2_0" class="doc-section">
+                                <h2 class="section-title">Update 2.0</h2>
+                                <div class="content">
+                                        <p>
+                                           To update App to 2.0  <br>
+                                           <br>
+                                           Frist You will need to download the original android application and re-config with your package name becuase the project has many new intergration(will be more difficult to update file by file)
+                                        <br>
+                                        <br>
+                                           Then Update database > phpMyAdmin > select your database > SQL > past the SQL request bellow > GO
+
+                                            <div class="code-block">
+<pre><code class="language-markup">
+CREATE TABLE subscription_table 
+(   id INT AUTO_INCREMENT NOT NULL,
+    user_id INT NOT NULL,
+    media_id INT DEFAULT NULL,
+    created DATETIME NOT NULL,
+    duration INT NOT NULL, 
+    method VARCHAR(255) NOT NULL, 
+    pack VARCHAR(255) NOT NULL, 
+    infos LONGTEXT DEFAULT NULL, 
+    status VARCHAR(255) NOT NULL, 
+    currency VARCHAR(255) NOT NULL, 
+    price DOUBLE  NOT NULL, 
+    transaction VARCHAR(255) DEFAULT NULL, 
+    email VARCHAR(255) DEFAULT NULL, 
+    started DATETIME DEFAULT NULL, 
+    expired DATETIME DEFAULT NULL, 
+    INDEX IDX_C118E35A76ED395 (user_id), 
+    INDEX IDX_C118E35EA9FDD75 (media_id), 
+    PRIMARY KEY(id)
+) 
+DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = InnoDB;
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+CREATE TABLE pack_table 
+(
+    id INT AUTO_INCREMENT NOT NULL, 
+    title VARCHAR(255) NOT NULL, 
+    description VARCHAR(255) DEFAULT NULL, 
+    discount VARCHAR(255) DEFAULT NULL, 
+    price DOUBLE  NOT NULL, 
+    duration INT NOT NULL, 
+    PRIMARY KEY(id)
+) 
+DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = InnoDB;
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+CREATE TABLE items_table 
+(
+    id INT AUTO_INCREMENT NOT NULL, 
+    poster_id INT DEFAULT NULL, 
+    channel_id INT DEFAULT NULL, 
+    user_id INT NOT NULL, 
+    position INT NOT NULL, 
+    INDEX IDX_F2F545FD5BB66C05 (poster_id), 
+    INDEX IDX_F2F545FD72F5A1AA (channel_id), 
+    INDEX IDX_F2F545FDA76ED395 (user_id), 
+    PRIMARY KEY(id)
+) 
+DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE = InnoDB;
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+ALTER TABLE subscription_table 
+ADD CONSTRAINT FK_C118E35A76ED395 FOREIGN KEY (user_id) REFERENCES fos_user_table (id);
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+ALTER TABLE subscription_table 
+ADD CONSTRAINT FK_C118E35EA9FDD75 FOREIGN KEY (media_id) REFERENCES media_table (id);
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+ALTER TABLE items_table 
+ADD CONSTRAINT FK_F2F545FD5BB66C05 FOREIGN KEY (poster_id) REFERENCES poster_table (id);
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+ALTER TABLE items_table 
+ADD CONSTRAINT FK_F2F545FD72F5A1AA FOREIGN KEY (channel_id) REFERENCES channel_table (id);
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+ALTER TABLE items_table 
+ADD CONSTRAINT FK_F2F545FDA76ED395 FOREIGN KEY (user_id) REFERENCES fos_user_table (id);
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+ALTER TABLE settings_table 
+ADD logo_id INT DEFAULT NULL, 
+ADD favicon_id INT DEFAULT NULL, 
+ADD title VARCHAR(255) DEFAULT NULL, 
+ADD subtitle VARCHAR(255) DEFAULT NULL, 
+ADD sitedescription VARCHAR(255) DEFAULT NULL, 
+ADD sitekeywords VARCHAR(255) DEFAULT NULL, 
+ADD login TINYINT(1) NOT NULL, 
+ADD currency VARCHAR(255) DEFAULT NULL, 
+ADD cashaccount LONGTEXT DEFAULT NULL, 
+ADD paypalclientid VARCHAR(255) DEFAULT NULL, 
+ADD paypalclientsecret VARCHAR(255) DEFAULT NULL, 
+ADD paypalaccount VARCHAR(255) DEFAULT NULL, 
+ADD stripeapikey LONGTEXT DEFAULT NULL, 
+ADD manual TINYINT(1) NOT NULL, 
+ADD stripe TINYINT(1) NOT NULL, 
+ADD paypal TINYINT(1) NOT NULL, 
+ADD gpay TINYINT(1) NOT NULL, 
+ADD stripepublickey LONGTEXT DEFAULT NULL, 
+ADD paypalsandbox TINYINT(1) NOT NULL, 
+ADD refundpolicy LONGTEXT DEFAULT NULL, 
+ADD faq LONGTEXT DEFAULT NULL, 
+ADD homebanner VARCHAR(255) DEFAULT NULL, 
+ADD homebannertype VARCHAR(255) DEFAULT NULL, 
+ADD moviebanner VARCHAR(255) DEFAULT NULL, 
+ADD moviebannertype VARCHAR(255) DEFAULT NULL, 
+ADD seriebanner VARCHAR(255) DEFAULT NULL, 
+ADD seriebannertype VARCHAR(255) DEFAULT NULL, 
+ADD channelbanner VARCHAR(255) DEFAULT NULL, 
+ADD channelbannertype VARCHAR(255) DEFAULT NULL, 
+ADD themoviedbkey VARCHAR(255) DEFAULT NULL, 
+ADD themoviedblang VARCHAR(255) DEFAULT NULL, 
+ADD header LONGTEXT DEFAULT NULL;
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+
+ALTER TABLE settings_table 
+ADD CONSTRAINT FK_4EF0C90FF98F144A FOREIGN KEY (logo_id) REFERENCES media_table (id);
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+ALTER TABLE settings_table 
+ADD CONSTRAINT FK_4EF0C90FD78119FD FOREIGN KEY (favicon_id) REFERENCES media_table (id);
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+CREATE INDEX IDX_4EF0C90FF98F144A ON settings_table (logo_id);
+CREATE INDEX IDX_4EF0C90FD78119FD ON settings_table (favicon_id);
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+ALTER TABLE poster_table 
+ADD slug VARCHAR(255) NOT NULL, 
+ADD label VARCHAR(255) DEFAULT NULL, 
+ADD sublabel VARCHAR(255) DEFAULT NULL;
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+UPDATE poster_table SET slug = id;
+CREATE UNIQUE INDEX UNIQ_2AD2483989D9B62 ON poster_table (slug);
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+ALTER TABLE actor_table 
+ADD slug VARCHAR(255) NOT NULL;
+
+UPDATE actor_table SET slug = id;
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+CREATE UNIQUE INDEX UNIQ_D2AD64D2989D9B62 ON actor_table (slug);
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+ALTER TABLE episode_table 
+ADD slug VARCHAR(255) NOT NULL;
+
+UPDATE episode_table SET slug = id;
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+CREATE UNIQUE INDEX UNIQ_CD237912989D9B62 ON episode_table (slug);
+
+ALTER TABLE channel_table 
+ADD slug VARCHAR(255) NOT NULL, 
+ADD label VARCHAR(255) NOT NULL, 
+ADD sublabel VARCHAR(255) NOT NULL;
+UPDATE channel_table SET slug = id;
+CREATE UNIQUE INDEX UNIQ_410887DE989D9B62 ON channel_table (slug);
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+ALTER TABLE source_table 
+ADD quality VARCHAR(255) DEFAULT NULL, 
+ADD title VARCHAR(255) DEFAULT NULL, 
+ADD size VARCHAR(255) DEFAULT NULL, 
+ADD kind VARCHAR(255) DEFAULT NULL, 
+ADD external TINYINT(1) DEFAULT NULL, 
+ADD premium VARCHAR(255) DEFAULT NULL, CHANGE type type VARCHAR(255) DEFAULT NULL;
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+UPDATE source_table SET title = type  ;
+UPDATE source_table SET premium = 1  ;
+UPDATE source_table SET external = 0  ;
+UPDATE source_table SET kind = "both"  ;
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+
+
+ALTER TABLE fos_user_table 
+ADD theme VARCHAR(255) DEFAULT NULL, 
+DROP expires_at, 
+DROP credentials_expire_at, 
+CHANGE username username VARCHAR(180) NOT NULL, 
+CHANGE username_canonical username_canonical VARCHAR(180) NOT NULL, 
+CHANGE email email VARCHAR(180) NOT NULL, 
+CHANGE email_canonical email_canonical VARCHAR(180) NOT NULL, 
+CHANGE salt salt VARCHAR(255) DEFAULT NULL, 
+CHANGE confirmation_token confirmation_token VARCHAR(180) DEFAULT NULL;
+</code></pre>
+<br>
+<b>Then</b>
+<pre class=" language-markup"><code class=" language-markup">
+CREATE UNIQUE INDEX UNIQ_C3D4D4BDC05FB297 ON fos_user_table (confirmation_token);
+
+
+</code></pre>
+                                            </div><!--//code-block-->
+                                            <br>
+                                            <b>Then go to admin panel and replace the exist folders and files from the new admin panel</b>
+<pre class=" language-markup"><code class=" language-markup">
+admin_panel/app/config/config.yml
+admin_panel/app/config/security.yml
+admin_panel/app/config/services.yml
+admin_panel/app/config/routing.yml
+admin_panel/app/AppKarnel.php
+admin_panel/public_html/css/demo.css
+admin_panel/public_html/js/app.js
+admin_panel/src/AppBundle
+admin_panel/src/UserBundle
+admin_panel/vendor
+
+then go to admin panel > app > cach > and delete prod folder
+</code>
+</pre>
+                                        </p>
+                                        <br>
+                                </div>
+                            </section>
+                            <section id="update_2_1" class="doc-section">
+                                <h2 class="section-title">Update 2.1</h2>
+                                <div class="content">
+                                            <b>To updare admin panel to 2.1 update the files bellow </b>
+                                            <pre class=" language-markup"><code class=" language-markup">
+admin_panel/vendor/friendsofsymfony/user-bundle/Controller/ChangePasswordController.php
+admin_panel/src/UserBundle/Resources/views/ChangePassword/admin_changePassword_content.html.twig
+admin_panel/src/AppBundle/Controller/SerieController.php
+admin_panel/src/AppBundle/Controller/MovieController.php
+admin_panel/src/UserBundle/Entity/User.php
+admin_panel/public_html/js/app.js
+admin_panel/src/AppBundle/Resources/views/Subscription/index.html.twig
+admin_panel/src/AppBundle/Resources/views/Subscription/edit.html.twig
+admin_panel/src/AppBundle/Resources/views/Pack/edit.html.twig
+admin_panel/src/AppBundle/Resources/views/Pack/add.html.twig
+admin_panelsrc/AppBundle/Resources/views/Home/api_all.html.php
+then go to admin panel > app > cach > and delete prod folder
+                                            </code>
+                                            </pre>
+                                </div>
+                                <div class="content">
+                                            <b>Then Update the android app by update the files bellow </b>
+                                            <pre class=" language-markup"><code class=" language-markup">
+/ui/activities/SerieActivity.java
+/ui/activities/ChannelActivity.java
+/entity/Poster.java
+/MyApplication.java
+                                            </code>
+                                            </pre>
+                                </div>
+                            </section>
+                            <section id="update_2_2" class="doc-section">
+                                <h2 class="section-title">Update 2.2</h2>
+                                <div class="content">
+                                            <b>To updare admin panel to 2.2 update the files bellow </b>
+                                            <pre class=" language-markup"><code class=" language-markup">
+admin_panel/src/UserBundle/Entity/User.php
+admin_panel/src/AppBundle/Entity/Source.php
+admin_panel/src/AppBundle/Controller/HomeController.php
+
+                                            </code>
+                                            </pre>
+                                </div>
+                                <div class="content">
+                                            <b>Then Update the android app by update the files bellow </b>
+                                            <pre class=" language-markup"><code class=" language-markup">
+/ui/activities/PlansActivity.java
+                                            </code>
+                                            </pre>
+                                </div>
+                            </section>
+                            <section id="update_2_3" class="doc-section">
+                                <h2 class="section-title">Update 2.3</h2>
+                                <div class="content">
+                                            <b>To updare admin panel to 2.3 update the files bellow </b>
+                                            <pre class=" language-markup"><code class=" language-markup">
+ui > Adapters > HomeAdapter
+ui > Adapters > ChannelAdapter
+ui > Adapters > PosterAdapter
+
+ui > activities > HomeActivity.java
+ui > activities > ChannelActivity.java
+ui > activities > MoviesActivity.java
+ui > activities > SerieActivity.java
+ui > activities > SerieActivity.java
+ui > activities > LoginActivity
+ui > activities > RefundActivity
+
+
+res > layout > activity_refund.xml
+res > layout > activity_login.xml
+res > layout > native_ad_layout_1.xml
+res > layout > item_facebook_ads.xml
+res > layout > dialog_subscribe.xml
+res > values > strings.xml
+
+manifests > AndroidManifest.xml
+
+Gradle Scriptes > build.gradle
+
+                                            </code>
+                                            </pre>
+                                </div>
+                                <div class="content">
+                                            <b>Then Update the admin panel by update the files bellow </b>
+                                            <pre class=" language-markup"><code class=" language-markup">
+src/AppBundle/Resources/config/routing.yml
+src/AppBundle/Controller/HomeController.php
+src/AppBundle/Resources/views/Home/apprefundpolicy.html.twig
+                                            </code>
+                                            </pre>
+                                </div>
+<p>Then go to admin panel / app / cach and delete <b>prod</b> folder</p>
+                            </section>
+
+                        </div><!--//content-inner-->
+                    </div><!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+	                        
+	                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                    <a class="nav-link scrollto" href="#android-project">Config Android Project</a>
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link scrollto" href="#android-studio-open-project">Open Project</a>
+                                        <a class="nav-link scrollto" href="#android-project-package-name">Change the package name</a>
+                                        <a class="nav-link scrollto" href="#android-project-firebase">Firebase Configuration</a>
+                                        <a class="nav-link scrollto" href="#android-project-facebook">Facebook login Configuration</a>
+                                        <a class="nav-link scrollto" href="#android-project-google">Google / Phone Auth Configuration</a>
+
+                                    </nav><!--//nav-->
+                                    <a class="nav-link scrollto" href="#admin-panel">Admin Panel</a>
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link scrollto" href="#admin-panel-config">Admin panel Configuration</a>
+                                        <a class="nav-link scrollto" href="#admin-panel-link">Link The Android App With Admin panel</a>
+                                    </nav><!--//nav-->	    
+                                    <a class="nav-link scrollto" href="#app-customization">The Application Customization</a>                                   
+                                    <a class="nav-link scrollto" href="#update_2_0">Update 2.0</a>                    
+                                    <a class="nav-link scrollto" href="#update_2_1">Update 2.1</a>                    
+                                    <a class="nav-link scrollto" href="#update_2_2">Update 2.2</a>                    
+                                    <a class="nav-link scrollto" href="#update_2_3">Update 2.3</a>                    
+	                            </nav><!--//doc-menu-->
+	                        
+                        </div>
+                    </div><!--//doc-sidebar-->
+                </div><!--//doc-body-->              
+            </div><!--//container-->
+        </div><!--//doc-wrapper-->
+        
+
+    
+     
+    <!-- Main Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>      
+<script type="text/javascri
+    
+</body>
+</html> 
+

@@ -1,0 +1,28 @@
+# Learn more about services, parameters and containers at
+# http://symfony.com/doc/current/service_container.html
+parameters:
+#    parameter_name: value
+
+services:
+#    service_name:
+#        class: AppBundle\Directory\ClassName
+#        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
+
+services:
+ twig.extension.text:
+     class: Twig_Extensions_Extension_Text
+     tags:
+         - { name: twig.extension }
+ app.form.registration:
+     class: UserBundle\Form\RegistrationType
+     tags:
+         - { name: form.type, alias: app_user_registration }
+ stof_doctrine_extensions.listener.sluggable:
+     class: %stof_doctrine_extensions.listener.sluggable.class%
+     public: false
+     tags:
+        - { name: doctrine.event_subscriber, connection: default }
+     calls:
+        - [setAnnotationReader, ['@annotation_reader']]
+        - [setTransliterator, [[AppBundle\Service\Slugger, transliterate]]]
+        - [setUrlizer, [[AppBundle\Service\Slugger, urlize]]]
